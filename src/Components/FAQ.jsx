@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { faqData } from "../constant";
-import FaqItem from "./Faqitem";
+import FaqItem from "./Faqitems";
 
 const FAQ = () => {
   const [isOpen, setIsOpen] = useState(false);
