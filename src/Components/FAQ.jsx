@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FaqItem from "./Faqitem";
+import FaqItem from "./FaqItem";
 import { faqData } from "../constant";
 
 const FAQ = () => {
