@@ -22,6 +22,7 @@ const FaqItem = ({ id, question, answer, isOpen, onClose }) => {
         </div>
       )}
     </div>
+    //type
   );
 };
 
