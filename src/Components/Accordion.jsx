@@ -4,7 +4,10 @@ import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 
 const Accordion = ({ plan, isOpen, toggleAccordion }) => {
   return (
-    <div className="border border-white/10 rounded-lg text-white">
+    <div
+      data-aos="fade-up"
+      className="border border-white/10 rounded-lg text-white"
+    >
       <button
         className="w-full p-3 bg-white/5 flex items-center justify-between cursor-pointer hover:bg-white/10 transition-colors"
         onClick={toggleAccordion}

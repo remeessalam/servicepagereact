@@ -5,12 +5,8 @@
 
 .body {
   background-color: #0f0f0f;
-  cursor: default; /* This will show the default arrow cursor */
 }
-button,
-.interactive {
-  cursor: none; /* Hides the default cursor, showing the animated one */
-}
+
 @layer utilities {
   .wrapper {
     @apply max-w-7xl mx-auto px-4 md:px-8;

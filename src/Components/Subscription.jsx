@@ -25,7 +25,10 @@ const Subscription = () => {
     <>
       <div className=" bg-backgroundcolor py-16 px-4">
         <div className="wrapper ">
-          <h2 className="text-4xl font-bold text-center text-primary mb-4">
+          <h2
+            data-aos="fade-up"
+            className="text-4xl font-bold text-center text-primary mb-4"
+          >
             Subscription Plan
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
@@ -52,12 +55,16 @@ const Subscription = () => {
               </div>
 
               <div className="mt-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-1">
+                <div
+                  data-aos="fade-up"
+                  className="text-3xl font-bold text-primary mb-1"
+                >
                   {sixMonthPlanDetails.price}{" "}
                   <span className="text-sm text-white">+ GST</span>
                 </div>
 
                 <button
+                  data-aos="fade-up"
                   className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
                   onClick={() => {
                     window.location.href =
@@ -91,11 +98,15 @@ const Subscription = () => {
               </div>
 
               <div className="mt-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-1">
+                <div
+                  data-aos="fade-up"
+                  className="text-3xl font-bold text-primary mb-1"
+                >
                   {oneYearPlanDetails.price}{" "}
                   <span className="text-sm text-white">+ GST</span>
                 </div>
                 <button
+                  data-aos="fade-up"
                   className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
                   onClick={() => {
                     window.location.href =
@@ -129,11 +140,15 @@ const Subscription = () => {
               </div>
 
               <div className="mt-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-1">
+                <div
+                  data-aos="fade-up"
+                  className="text-3xl font-bold text-primary mb-1"
+                >
                   {twoYearPlanDetails.price}{" "}
                   <span className="text-sm text-white">+ GST</span>
                 </div>
                 <button
+                  data-aos="fade-up"
                   className="w-full mt-4 bg-primary text-white py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors"
                   onClick={() => {
                     window.location.href =

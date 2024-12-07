@@ -12,12 +12,15 @@ const FAQ = () => {
   return (
     <div className=" bg-backgroundcolor py-12 px-4 sm:px-6 lg:px-8">
       <div className="wrapper ">
-        <h1 className="text-4xl font-bold text-center mb-12 text-orange-500">
+        <h1
+          data-aos="fade-up"
+          className="text-4xl font-bold text-center mb-12 text-orange-500"
+        >
           FAQ
         </h1>
         <div className="space-y-6">
           {faqData.map((faq) => (
-            <div key={faq.id}>
+            <div data-aos="fade-up" key={faq.id}>
               <FaqItem
                 id={faq.id}
                 question={faq.question}
