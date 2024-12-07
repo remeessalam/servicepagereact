@@ -60,7 +60,6 @@ const Subscription = () => {
                   className="text-3xl font-bold text-primary mb-1"
                 >
                   {sixMonthPlanDetails.price}{" "}
-                  <span className="text-sm text-white">+ GST</span>
                 </div>
 
                 <button
@@ -103,7 +102,6 @@ const Subscription = () => {
                   className="text-3xl font-bold text-primary mb-1"
                 >
                   {oneYearPlanDetails.price}{" "}
-                  <span className="text-sm text-white">+ GST</span>
                 </div>
                 <button
                   data-aos="fade-up"
@@ -145,7 +143,6 @@ const Subscription = () => {
                   className="text-3xl font-bold text-primary mb-1"
                 >
                   {twoYearPlanDetails.price}{" "}
-                  <span className="text-sm text-white">+ GST</span>
                 </div>
                 <button
                   data-aos="fade-up"
