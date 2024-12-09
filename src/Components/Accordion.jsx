@@ -9,7 +9,7 @@ const Accordion = ({ plan, isOpen, toggleAccordion }) => {
       className="border border-white/10 rounded-lg text-white"
     >
       <button
-        className="w-full p-3 bg-white/5 flex items-center justify-between cursor-pointer hover:bg-white/10 transition-colors"
+        className="w-full text-start p-3 bg-white/5 flex items-center justify-between cursor-pointer hover:bg-white/10 transition-colors"
         onClick={toggleAccordion}
       >
         <span className="text-white text-sm">{plan.heading}</span>

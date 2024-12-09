@@ -12,7 +12,7 @@ const FaqItem = ({ id, question, answer, isOpen, onClose }) => {
         <CgArrowTopRight
           width={20}
           height={20}
-          className="w-5 h-5 text-orange-500 transform transition-transform"
+          className="min-w-5 min-h-5 max-h-5 max-w-5 text-orange-500 transform transition-transform"
           style={{
             transform: isOpen === id ? "rotate(85deg)" : "rotate(-5deg)",
           }}
