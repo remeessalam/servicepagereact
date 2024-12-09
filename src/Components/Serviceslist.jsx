@@ -11,15 +11,16 @@ const Serviceslist = () => {
             data-aos="fade-up"
             className="text-3xl md:text-4xl font-bold mb-4 text-primary"
           >
-            Which Services We Provide
+            Services you can offer to your customers through BOOSTMYSITES
+            subscription
           </h2>
-          <p
+          {/* <p
             data-aos="fade-up"
             className="text-xl text-gray-600 dark:text-gray-400"
           >
             Services you can offer to your customers through A Boostmysites
             Subscription
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
