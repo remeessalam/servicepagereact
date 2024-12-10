@@ -3,7 +3,7 @@ import bannerbgvid from "../assets/video/banner-landing.mp4";
 const Banner = () => {
   return (
     <div className="relative w-screen h-[70vh] overflow-hidden  flex items-center justify-center bg-black text-white">
-      <div className="absolute w-screen top-0 overflow-hidden">
+      <div className="absolute w-screen h-[70vh] top-0 overflow-hidden">
         {/* <img
           src={bannerimage}
           alt="banner-image"
@@ -18,8 +18,17 @@ const Banner = () => {
           loop
           pip={false}
           width="100vw"
-          height="100%"
-          className=" h-full object-fill  opacity-50"
+          height="70vh"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  objectFit: "cover",
+                },
+              },
+            },
+          }}
+          className=" object-cover  opacity-50"
         />
 
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/10 to-black/10" /> */}
