@@ -23,7 +23,7 @@ const Subscription = () => {
   };
   return (
     <>
-      <div className=" bg-backgroundcolor py-16 px-4">
+      <div className=" bg-transparent py-16 px-4">
         <div className="wrapper ">
           <h2
             data-aos="fade-up"

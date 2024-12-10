@@ -246,7 +246,7 @@ export const plans = [
   },
   {
     id: 3,
-    duration: "2 Year",
+    duration: "2 Years",
     price: "4,80,000",
     features: [
       {
@@ -520,7 +520,7 @@ export const oneYearPlanDetails = {
 };
 
 export const twoYearPlanDetails = {
-  title: "2 Year",
+  title: "2 Years",
   accordionDetails: [
     {
       heading: "Exclusive Direct personal mentorship",

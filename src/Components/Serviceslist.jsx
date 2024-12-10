@@ -4,7 +4,7 @@ import { services } from "../constant";
 
 const Serviceslist = () => {
   return (
-    <section className="py-16 px-4 md:px-8 bg-backgroundcolor">
+    <section className="py-16 px-4 md:px-8 bg-transparent">
       <div className="wrapper">
         <div className="text-center mb-12">
           <h2
@@ -25,7 +25,7 @@ const Serviceslist = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {services.map((service) => (
-            <div data-aos="fade-up" key={service.id}>
+            <div data-aos="fade-up" className="bg-black" key={service.id}>
               <ServiceCard service={service} />
             </div>
           ))}

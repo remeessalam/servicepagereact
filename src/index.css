@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 .body {
-  background-color: #0f0f0f;
+  /* background-color: #0f0f0f; */
+  font-family: "Roboto", sans-serif;
 }
 
 @layer utilities {
@@ -27,4 +28,44 @@ li,
 div,
 .react-tel-input .form-control {
   font-family: "Roboto", sans-serif;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.landing-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 200vh;
+  overflow-x: hidden;
+  /* background-image: url("assets/images/bg-image-1.jpg"); */
+  background-image: url("/public/images/bg-image-1.jpeg");
+  background-size: 15%; /* Ensure the background fills the element */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  z-index: -1; /* Ensure it stays in the background */
+  /* opacity: 0.5; */
+  pointer-events: none; /* Disable interaction with this pseudo-element */
+  animation: moveBackground 100s linear infinite;
+}
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-page::before {
+    background-size: 110%;
+    animation: moveBackground 50s linear infinite;
+  }
 }

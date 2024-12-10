@@ -10,7 +10,7 @@ const FAQ = () => {
     });
   };
   return (
-    <div className=" bg-backgroundcolor py-12 px-4 sm:px-6 lg:px-8">
+    <div className=" bg-transparent py-12 px-4 sm:px-6 lg:px-8">
       <div className="wrapper ">
         <h1
           data-aos="fade-up"
@@ -20,7 +20,7 @@ const FAQ = () => {
         </h1>
         <div className="space-y-6">
           {faqData.map((faq) => (
-            <div data-aos="fade-up" key={faq.id}>
+            <div data-aos="fade-up" className="bg-black" key={faq.id}>
               <FaqItem
                 id={faq.id}
                 question={faq.question}
